@@ -1,15 +1,132 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title> Samantha Jacobo </title>
-    </head>
-    <body>
-<h1>Brazuca</h1>
-<ul>
-<p1> The brazuca is Brazil's world cup soccer ball.
-It has green, blue and orange swirls. 
-Between these swirls there are sparkly stars. </p1>
-</ul>
-<img src="http://www.soccer.com/guide/wp-content/uploads/2013/12/adidas-Brazuca-790x552.jpg" />
-    </body>
+<meta name="viewport" content="width=device-width">
+<title>bootstrap sample</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+<!-- Latest compiled and minified JavaScript -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        .container {
+            height: 100%;
+        }
+        .row {
+            height: 100%;
+        }
+        .left-column {
+            background-color: #white;
+            min-height: 100%;
+        }
+        .right-column {
+            background-color: black;
+            min-height: 100%;
+        }
+        .Paragraph1 {
+            color: white;
+        }
+        .Paragraph2 {
+            color: white;
+        }
+        .Paragraph3 {
+            color: white;
+        }
+        .imageBox {
+            display:inline-block;
+            position:relative;
+            border: 1px solid red;
+            width: 200px;
+            height: 200px;
+        }
+        .imageBox img {
+            width: 200px;
+            height: 200px;
+        }
+        .imageBox p {
+            text-align: center;
+            opacity: 0.0;
+            top:0;
+            position:absolute;
+            width: 200px;
+            height: 200px;
+            transition:all 1s;
+        }
+        .imageBox p:hover {
+            opacity: 1;
+        }
+        #face {
+            margin:0 auto;
+            display:block;
+        }
+        h1 {
+            text-align:center
+        }
+        h2 {
+            text-align:center
+        }
+        p {
+            font-size:150%
+        }
+        .github {
+            text-align:center;
+            position:relative;
+            top:-75px;
+            left:-75;
+        }
+        .Hi {
+            color:white;
+            font-size:16px;
+            top:-55px;
+        }
+    </style>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 left-column">
+                <p style="float: left;">
+                    <img id="face" src="https://raw.githubusercontent.com/Sammtastikk/Project-One/master/img/0238f57.jpg"
+                    height="200px" width="200px" border="1px">
+                </p>
+                <div style="font-size: 200px; font-family: Arial">S</div>
+                <div></div>
+                <div class="github">github.com/sammtastikk</div>
+                <div class="github">contact:@jacobovideography</div>
+            </div>
+            <div class="col-sm-8 right-column">
+                <h1 style="color:white; font-size:100px,center">Samantha Jacobo</h1>
+                <h2 div="Hi">Web developer</h2>
+                <h3 style="color:white;font-size:16px">Week 1</h3>
+                <div class="Paragraph1">Dev Iowa BootCamp started with joining www.Codecademy.com. Here we were
+                    introduced to HTML/CSS and Javascript. We received Jon Duckett’s "HTML&CSS"
+                    design and build websites. We registered for cloud 9 where we began coding.
+                    We registered for github accounts so that we could post our code, look
+                    at other coding projects, create a central chat with the class so that
+                    we could share example code from class and create cloud 9 files that could
+                    be put onto github. So far we are working on our first assignment: the
+                    website you are looking at right here.</div>
+                <div class="gallery">
+                    <div class="imageBox">
+                        <img src="https://raw.githubusercontent.com/Sammtastikk/sammtastikk.github.io/master/print%20screen%20git%20hub%20account.jpg"
+                        />
+                        <p style="text-align:center;">GITHUB ACCOUNT</p>
+                    </div>
+                    <div class="imageBox">
+                        <img src="https://raw.githubusercontent.com/Sammtastikk/Project-One/master/img/1907947_2104243404019_3830962427327653821_n.jpg"
+                        />
+                        <p style="text-align:center;">PHOTOGRAPHS</p>
+                    </div>
+                    <div class="imageBox">
+                        <img src="https://raw.githubusercontent.com/Sammtastikk/sammtastikk.github.io/ff96e9fe70c682bf47eb0965799ef3858f88ced5/print%20screen%20git%20hub%20account.jpg"
+                        />
+                        <p style="text-align:center;">VIDEOGRAPHY</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
 </html>
